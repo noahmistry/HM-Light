@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+   }
+   
+   h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', serif;
+   }
+ 
+   #brand-text {
+       color: #fff;
+       background-color: red;
+       width: 200px;
+       height: 50px;
+       padding: 2px;
+   }
+   #can-flag {
+      width: 30px; 
+      height: 30px; 
+   }
+   #logo-brand {
+       width: 140px;
+       height: 160px;
+   }
+   #buy-local {
+       letter-spacing: .1rem;
+       font-weight: bold;
+       font-family: 'Montserrat';
+       font-size: 12px;
+   }
+   .dropdown-menu {
+       min-width: 40rem;
+   }
+    
+   

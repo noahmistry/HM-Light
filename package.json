@@ -1,0 +1,40 @@
+{
+  "name": "hm-light",
+  "version": "1.0.0",
+  "description": "Official Website of HM-Light.ca",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahmistry/HM-Light.git"
+  },
+  "author": "Noah Mistry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahmistry/HM-Light/issues"
+  },
+  "homepage": "https://github.com/noahmistry/HM-Light#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-noop": "^1.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-assets": "^5.0.0",
+    "usedcss": "^1.0.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
