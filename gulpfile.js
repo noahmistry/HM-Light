@@ -28,7 +28,7 @@
       browsersync   = devBuild ? require('browser-sync').create() : null;
   
   
-    console.log('Gulp', devBuild ? 'development' : 'production', 'build');
+    console.log('Gulp', devBuild ? 'development' : 'development', 'build');
   
   
     /**************** clean task ****************/
@@ -113,7 +113,6 @@
       server: {
         baseDir   : './',
       },
-      files: './index.html',
       port        : 5500,
       open        : false,
     };
